@@ -23,7 +23,7 @@ Includes:
 
 Install? (y/n):''')
 
-if ans = 'y':
+if ans == 'y':
     os.system("sudo apt update")
     os.system("sudo apt install wget git xterm tar")
     os.system("wget https://dl.google.com/dl/android/studio/ide-zips/3.4.1.0/android-studio-ide-183.5522156-linux.tar.gz")
