@@ -11,6 +11,16 @@ a cuppa tea.
 
 YOU MUST HAVE AT LEAST 6GB OF FREE STORAGE!
 
+Includes:
+
+* Android Studio
+
+* Flutter
+
+* Visual Studio Code
+
+* wget, git, xterm, tar
+
 Install? (y/n):''')
 
 if ans = 'y':
