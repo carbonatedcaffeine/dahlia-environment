@@ -38,5 +38,7 @@ if ans == 'y':
     os.system("sudo rm code_1.33.1-1554971066_amd64.deb")
     os.system("sudo rm flutter_linux_v1.2.1-stable.tar.xz")
     os.system("sudo rm android-studio-ide-183.5522156-linux.tar.gz")
+    os.system("git clone https://github.com/dahlia-os/pangolin-desktop.git")
+    os.system("git clone https://github.com/dahlia-os/pangolin-mobile.git")
     print('finished setting up environment...')
     
