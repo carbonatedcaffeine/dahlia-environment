@@ -1,5 +1,6 @@
 # Dahlia Development Installer 
 import os
+import time
 
 ans = input ('''
 Dahlia Development Installer
@@ -29,6 +30,7 @@ if ans == 'y':
     os.system("wget https://dl.google.com/dl/android/studio/ide-zips/3.4.1.0/android-studio-ide-183.5522156-linux.tar.gz")
     os.system("tar xvzf android-studio-ide-183.5522156-linux.tar.gz")
     print('when android studio is finished installing exit xterm to continue installing the rest of the packages')
+    time.sleep(5)
     os.system("xterm -e sh $HOME/android-studio/bin/studio.sh")
     os.system("wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.2.1-stable.tar.xz")
     os.system("tar xf $HOME/flutter_linux_v1.2.1-stable.tar.xz")
